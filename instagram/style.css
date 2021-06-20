@@ -1,0 +1,16 @@
+body {
+    background-color: black;
+
+
+
+}
+
+
+.box {
+    box-sizing: border-box;
+    border: 8px solid transparent;
+    background-clip:padding-box;
+  }
+
+
+  
