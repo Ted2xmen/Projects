@@ -43,12 +43,12 @@ header nav .tabs .tab a[data-switcher] {
     padding: 15px 30px;
     text-decoration: none;
     color: #FFF;
-    background-color: royalblue;
+    background-color:#444bff;
     cursor: pointer;
 }
 
 header nav .tabs .tab:hover a[data-switcher] {
-    background-color: #F7A800;
+    background-color: #ffbf5e;
 }
 
 header nav .tabs .tab.is-active a[data-switcher] {
@@ -77,4 +77,23 @@ main {
     display: block;
 }
 
+h2 {
+    text-decoration: underline 3px;
+    text-decoration-color: #ffbf5e ;
+    font-weight: bold;
+}
 
+/* gradient logo
+.logo-text {
+
+    color: #ffbf5e;
+    background: -webkit-linear-gradient(330deg, #444bff 20%, #444bff 45%, #ffbf5e 80%, #ffbf5e 95%, #ffbf5e 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+} */
+
+.logo-link {
+    text-decoration: none;
+    color: black;
+}
