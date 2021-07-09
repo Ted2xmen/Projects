@@ -1,0 +1,56 @@
+body {
+    background-color: aqua;
+    margin:0 auto;
+    text-align: center;
+}
+
+#title {
+    background-color: burlywood;
+    padding: 10px;
+    font-size: 50px;
+    text-transform: uppercase;
+}
+
+#main {
+
+}
+
+
+#image {
+width: 100%;
+height: auto;
+max-width: 625px;
+margin-left: auto;
+margin-right: auto;
+display: block;
+}
+
+#img-div {
+    background: blueviolet;
+    
+}
+#img-caption {
+    padding: 4px;
+}
+
+#tribute-link {
+    margin: 10px;
+    padding-top: 20px;
+    padding-bottom: 55px;
+}
+
+li {
+    font-size: 20px;
+    padding: 14px;
+    letter-spacing: 3px;
+
+}
+
+p {
+    text-align: center;
+    text-indent: 50px;
+    padding: 50px;
+    letter-spacing: 2px;
+    font-size: 20px;
+
+}
