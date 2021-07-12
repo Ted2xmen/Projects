@@ -23,7 +23,7 @@ btnElement.setAttribute("href", "#");
 // attribute and innertext
 imageElement.setAttribute("alt", "image from Unsplash");
 // headingElement.innerText = "deneme";
-paragraphElement.innerText = "lorem lorem lorem lorem lorem lorem";
+paragraphElement.innerText = "lorem lorem lorem lorem lorem loremlorem lorem lorem lorem lorem loremlorem lorem lorem ";
 btnElement.innerText = "Learn MORE";
 
 
@@ -35,21 +35,10 @@ imageContainer.appendChild(imageElement);
 infoContainer.append(headingElement,paragraphElement, btnElement);
 
 
+
+
 // for loop and json data fetch
 
-fetch('db.json')
-  .then(response => response.json())
-  .then(json => 
-    
-    
-    
-        JSON.stringify(
-            
-            console.log(json[1].title)
-            
-
-            
-            ));
 
 
   
