@@ -71,8 +71,19 @@ UI.prototype.loadAllFilms = function(films){
 UI.prototype.deleteFilmFromUI = function(element) {
     element.parentElement.parentElement.remove();
 
-    
 
 
+
+
+}
+
+UI.prototype.clearAllFilmsFromUI = function(){
+    const filmList = document.getElementById("films");
+    // filmList.innerHTML = ""; YAVAŞ YÖNTEM
+
+
+    while(filmList.firstElementChild !== null) { // child oldugu sürece
+        filmList.firstElementChild.remove();
+    }
 
 }
